@@ -1,0 +1,62 @@
+#chat{
+    right: 20px;
+    bottom: 5px;
+    width: 60vh;
+    border: 1px solid black;
+    height: 70vh;
+    position: fixed;
+    border-radius: 5px;
+    
+}
+#chat input{
+    width: 80%;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    padding: 10px;
+    border-radius: 26px;
+}
+#chat #send{
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+}
+#chat button{
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+    bottom: 2px solid purple;
+    border-radius: 20px;
+    align-self: center;
+}
+form{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+section{
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(17, 0, 255);
+    color: white;
+   text-align: center;
+    left: 0;
+    border-radius: 20px;
+    margin:2px 0 3px 1px;
+}
+#loading{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+#chat div{
+    width: 80%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+   
+    right: 0;
+    border-radius: 5px;
+    margin:2px 0 3px 50px;
+}
